@@ -1,0 +1,167 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Produção docentes PPGS/UFF (2023)</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Produção docentes PPGS/UFF (2023)</h2></div>
+                
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Total de projetos de pesquisa'}, 
+series: [{data: [[2023,
+9]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Total de projetos de pesquisa</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 9<br>
+                    
+                    
+                    <div id="dv-year-2023"><h3 class="year">2023</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>A colaboracao dos empresarios dirigentes das associacoes de classe do Rio de Janeiro com a ditadura empresarial-militar (1964-1985)</b><br><i><font size=-1>Descrição: Esta pesquisa tem como objetivo dar continuidade às investigações acerca dos diferentes tipos colaboração das empresas sediadas no estado do Rio de Janeiro e dos membros de sua diretoria, presidentes e acionistas, nas ações de repressão durante a ditadura empresarial-militar brasileira (1964 1985). A partir dos documentos sobre esse período, custodiados no Arquivo Nacional (fundo IPES) e das informações contidas no livro de René Dreifuss (1981), tivemos acesso a nomes de diversos empresários ligados ao Instituto de Pesquisas e Estudos Sociais (IPES). Os empresários estudados são: Humberto Reis Costa, José Ignácio Caldeira Versiani, Jair Nogueira, José Vasconcelos de Carvalho, Mário Leão Ludolf, Olavo Monteiro de Carvalho e Oswaldo Tavares Ferreira Este estudo também visa dar continuidade às pesquisas iniciadas pela Comissão Nacional da Verdade (2014) sobre a participação dos empresários na ditadura, a fim de fortalecer as ações de reparação, a partir da Carta da ONU (Resolução 60/147 aprovada na Assembleia Geral em 16 de dezembro de 2005), no qual o estado brasileiro é um dos signatários. Além das pesquisas já iniciadas no Arquivo Nacional (fundo IPES), pretendemos buscar informações adicionais no Arquivo Público do Estado do Rio de Janeiro (APERJ), no Centro de Pesquisa e Documentação da Fundação Getúlio Vargas (CPDOC), no Museu da Pessoa, em jornais e revistas da mídia, no período da ditadura militar brasileira (1964-1985).. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Joana DArc Fernandes Ferraz - Coordenador / Roney Leal de Mattos - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7461074173452047">Joana DArc Fernandes Ferraz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Circulacao e significados de concepcoes e praticas anticorrupcao</b><br><i><font size=-1>Descrição: A partir dos anos de 1990, as categorias corrupção e anticorrupção ganham novos significados ao serem articuladas à expansão da ordem neoliberal. Passam a fazer parte da agenda de organismos multilaterais, governos, entidades não governamentais e ganham o estatuto de um problema público internacional. Sua circulação tem produzido, em diferentes cantos, realidades sociais como legislações, ideologias sobre o bom governo e transparência, conhecimentos, especialistas, instituições e movimentos de combate à corrupção, disputas pelo controle do poder político e destituição de governantes. Em diálogo com a literatura recente de antropologia sobre o ?complexo corrupção/anticorrupção?, este projeto propõe analisar etnograficamente esforços anticorrupção no Brasil a partir do foco tanto em formas institucionalizadas, quanto em formas locais (populares) sustentadas em moralidades políticas, concepções e experiências de interação de segmentos sociais com o Estado e a política. Para tanto, define como foco de estudo três situações nas quais podem ser observadas narrativas e práticas anticorrupção: um órgão governamental de combate a corrupção, um movimento anticorrupção, ambos considerados como expressão de formas institucionalizadas de ?luta contra a corrupção?, e o caso de uma gestão municipal de políticas públicas de educação. Do ponto de vista teórico, a proposta visa contribuir com o debate sobre a construção de críticas e insatisfações a respeito da corrupção e a circulação de concepções de corrupção e anticorrupção. Do ponto de vista prático, espera gerar produtos que possam agregar no sentido da construção de políticas públicas eficientes e uma avaliação crítica sobre os usos sociais a que estão sujeitas as categorias corrupção e anticorrupção.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (2) / Doutorado: (1) . Integrantes: Marcos Otavio Bezerra - Coordenador. Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0957127806882841">Marcos Otavio Bezerra</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Industria automobilistica e trajetoria de desenvolvimento no Sul Fluminense no Brasil pos-COVID</b><br><i><font size=-1>Descrição: Trata-se de projeto que propõe a continuação de programa de pesquisa em curso sobre o impacto das estratégias globais de um grupo de empresas do setor automotivo na trajetória de desenvolvimento da região sul estado do Rio de Janeiro. A região é um importante polo industrial, no qual se destacam empresas do setor siderúrgico e metal-mecânico. Desde o final da década de 1990, a região recebeu quatro grandes montadoras de veículos: Volkswagen Caminhões, atual MAN (1995); PSA Peugeot-Citroen (2000); e mais recentemente, Nissan-Renault (2015) e Jaguar Land-Rover (2016). A pesquisa procura articular a literatura sobre sobre cadeias globais de valor (GEREFFI, 2018) e redes globais de produção (COE, YEUNG, 2015) para analisar a inserção da região na cadeia/redes estabelecida por estas empresas. Do ponto de vista desta literatura, tal inserção se dá entre duas possibilidades polares: upgrading social e econômico, entendido genericamente como a melhora das condições de trabalho e melhora nos indicadores sócio-econômicos articulados à presença destas empresas; e a corrida ao fundo do poço (race to the bottom), onde as condições para a atração das empresas passam pelo rebaixamento das condições de trabalho e extração de recursos locais diversos, tais como subsídios e recursos naturais. A metodologia é de natureza qualitativa e descritiva e consiste na caracterização do lugar ocupado pelas atividades desenvolvidas pelas empresas na região dentro de suas respectivas cadeias/redes e as estratégias locais para participar destas atividades, tendo como delimitação as mudanças advindas com a pandemia da COVID-19.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) . Integrantes: Cristiano Fonseca Monteiro - Coordenador / Giovanna Salles Ribeiro Pimentel - Integrante. Financiador(es): Associação dos Servidores do CNPq - Bolsa.Número de orientações: 1</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/5328470389792359">Cristiano Fonseca Monteiro</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Measuring the relationship between institutional diversity and student equity in Latin America countries</b><br><i><font size=-1>Descrição: This study aims to analyse the implications of the expansion and diversification of Latin American systems of higher education for equity of access and participation across a set of broadly defined ?equity groups? -- low socio-economic status (SES) people, blacks/indigenous people, those from rural and isolated areas, and women. Building upon the literature on institutional diversity in higher education (HE), it seeks to assess to what extent different institutional arrangements, and types of institutions that emerged within them, have been capable to increase equality of educational opportunities. By considering six key dimensions of the higher education fabric (governance, teaching, research, third mission, internationalisation, social inclusion), we additionally compare the efficiency of HE institutional models and landscapes in successfully including disadvantaged groups of students. Conceptually the study aims to refine the institutional typologies, sophisticating the measures and understanding their effects through systematic comparisons between countries in the region.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: André de Holanda Padilha Vieira - Integrante / Maria Ligia de Oliveira Barbosa - Coordenador / Leonardo Augusto Lopes Rodrigues - Integrante / André Pires - Integrante. Financiador(es): Society for Research into Higher Education - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/6721713322923268">Andre de Holanda Padilha Vieira</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>O corpo indigena como objeto e alvo do poder: um olhar sobre a Fazenda Guarani</b><br><i><font size=-1>Descrição: Esta pesquisa faz parte do Projeto de Pesquisa de Pós-Doutorado, que estou desenvolvendo no âmbito do Programa de Pós-Graduação em Filosofia (PPGF), da Universidade Federal de São Paulo (UNIFESP), Linha de Pesquisa Política, conhecimento e sociedade, sob a supervisão do Prof. Dr. Edson Luis de Almeida Teles. Esta pesquisa pretende ampliar as investigações sobre as violências sofridas pelos indígenas, na Fazenda Guarani, especificamente, as etnias Tupinikim e Guarani (localizadas no Norte do Estado do Espírito Santo), estendendo as análises para as etnias Krenak e Pataxó, que atualmente residem na Terra Indígena localizada na Fazenda Guarani. Essas investigações incluem análise dos arquivos remotos da FUNAI. Caso seja necessário, a pesquisa será feita nos arquivos físicos deste órgão, localizados na Fazenda Guarani, no Museu do Índio (RJ) e em Brasília. Também compõe esta análise entrevistas com os indígenas atingidos.. Situação: Em andamento; Natureza: Pesquisa. Integrantes: Joana DArc Fernandes Ferraz - Coordenador.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7461074173452047">Joana DArc Fernandes Ferraz</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Pedagogia empreendedora como formacao: percepcoes sobre o Mundo do Trabalho no Novo Ensino Medio</b><br><i><font size=-1>Descrição: A presente proposta busca contribuir para o debate sobre o Novo Ensino Médio (NEM) ao investigar quais são as ideias que pautaram o debate sobre a inclusão do ensino profissionalizante em tal segmento, uma vez que facilitar a transição da escola para o trabalho foi uma das maiores justificativa para as mudanças realizadas. Como hipótese, investigamos a hegemonia do que chamamos de pedagogia empreendedora como ideário norteador da proposta que resultou no NEM. Deste modo, a partir da reconstituição do debate legislativo e executivo em torno do tema, pretendemos responder quais foram as percepções sobre o mundo do trabalho que orientaram a reforma do Ensino Médio Brasileiro?. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (5) / Mestrado acadêmico: (2) / Doutorado: (4) . Integrantes: Raquel Guilherme de Lima - Coordenador.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1926364336557376">Raquel Guilherme de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Rede Global de Producao Automotiva: estrategias corporativas em perspectiva comparada</b><br><i><font size=-1>Descrição: O presente projeto tem por objetivo analisar comparativamente o enraizamento territorial da Stellantis e da General Motors nos municípios de Porto Real (RJ), Goiana (PE) e Gravataí (RS), avaliando os impactos dessas montadoras nessas geografias produtivas incrementadas ou constituídas entre os anos de 2000 e 2015. Assim, a análise dessas empresas auxiliará na elaboração de um mapa da Rede Global da Produção Automotiva (RGPA) bem como na compreensão dos processos de mudança social empreendidos por esses agentes econômicos nos seus territórios de atuação. Acredita-se que o estudo das RGPs seja um empreendimento fundamental para a interpretação das estratégias das montadoras em atuação nos estados do Rio de Janeiro, Rio Grande do Sul e Pernambuco, bem como da inserção desses territórios na cadeia global automotiva. Nesse sentido, a proposta aqui delineada pretende explorar potenciais complementariedades entre a teoria das Redes Globais de Produção (RGP) e a metodologia de mapeamento de Cadeias Globais de Valor (CGVs) elaborada por Gereffi e Kaplinsky (2001) com o propósito de entender os circuitos da organização global da produção, identificar atores geograficamente dispersos, seus poderes, capacidades e modos pelos quais exercem influência através de redes de relações. Essa metodologia será complementada por uma pesquisa de campo que permitirá apreender diferentes escalas, como a capacidade de adaptação territorial das corporações e a sua regulação por instituições e stakeholders locais, a exemplo de trabalhadores e comunidades.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (1) / Mestrado acadêmico: (1) / Doutorado: (6) . Integrantes: Raphael Jonathas da Costa Lima - Coordenador / Cristiano Fonseca Monteiro - Integrante / Rodrigo Salles Pereira dos Santos - Integrante / José Ricardo Garcia Pereira Ramalho - Integrante. Financiador(es): Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/7375738037025795">Raphael Jonathas da Costa Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Sociologia, comunicacao e debate publico</b><br><i><font size=-1>Descrição: O grupo de pesquisa Data_PS (data_PS) (UFF/UFRJ) tem como objetivo integrar novas técnicas e métodos informacionais, típicos do chamado Big Data, ao campo do pensamento social brasileiro e à história das ciências sociais brasileiras e latino-americanas. O grupo trabalha com dados de diferentes fontes (mídias sociais, bases de indexação científica e plataformas curriculares) mapeando e analisando uma variedade de temas e autores importantes para aquelas áreas.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Graduação: (5) / Mestrado acadêmico: (1) / Doutorado: (4) . Integrantes: Raquel Guilherme de Lima - Integrante / Lucas Correia Carvalho - Coordenador / Aline Marinho Lopes - Integrante / Antônio da Silveira Brasil Jr. - Integrante.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/1926364336557376">Raquel Guilherme de Lima</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td><span class="projects">2023-Atual</span>. <b>Turning Land into Capital. Historical Conjunctures of the (Re-)Production of Wealth in Latin America from the 19th to the 21st Century</b><br><i><font size=-1>Descrição: The international collaborative research project "Turning Land into Capital. Historical Periods of (Re)Production of Wealth in Latin America from the 19th to the 21st Century" (2023 - 2027) aims to understand the role of land as a means of (re)production of wealth in Latin America and the Caribbean. The focus is on the two phases from the 1860s to the Great Depression of 1929 and from the 1980s to the 2020s. In this inter- and transdisciplinary project, scholars from the universities of Bielefeld, Bern, Puebla, Quito and Quilmes are researching strategies for transforming land into capital in Latin America. The project is funded by the Volkswagen Foundation within the project line "Perspectives on Wealth: The (Re-)Production of Wealth" from 2023-2027.. Situação: Em andamento; Natureza: Pesquisa. Alunos envolvidos: Doutorado: (11) . Integrantes: Valter Lucio de Oliveira - Integrante / Olaf Kaltmeier - Integrante / Christian Büschges - Integrante / Melina Teubner - Integrante / Mariano E. Torres Bautista - Integrante / María de Lourdes Herrera Feria - Integrante / Maria Fernanda López - Integrante / Adrián Gustavo Zarrilli - Integrante / Carolina Hormaza - Coordenador / Philipp Wolfesberger - Integrante / Tyanif Rico Rodriguez - Integrante. Financiador(es): Stiftung Volkswagenwerk - Auxílio financeiro.</font></i><br><i><font size=-1>Membro: <a href="http://lattes.cnpq.br/0407753156463593">Valter Lucio de Oliveira</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2023 até 2023
+<br>Data de processamento: 24/11/2023 08:58:10<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:lucascorreiacarvalho@id.uff.br">lucascorreiacarvalho@id.uff.br</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
