@@ -1,0 +1,29 @@
+nodedef> name VARCHAR, idLattes VARCHAR, label VARCHAR, rotulo VARCHAR, lat DOUBLE, lon DOUBLE, collaborationRank DOUBLE, producaoBibliografica DOUBLE, artigoEmPeriodico DOUBLE, livro DOUBLE, capituloDeLivro DOUBLE, trabalhoEmCongresso DOUBLE, resumoExpandido DOUBLE, resumo DOUBLE, posDoutorado DOUBLE, dutorado DOUBLE, mestrado DOUBLE, ic DOUBLE, color VARCHAR
+0,7387619517924195,Alessandro Andre Leme,[Sem rotulo],,,0.15,4,0,0,0,2,1,1,0,1,1,0,'255,255,255'
+1,6721713322923268,Andre de Holanda Padilha Vieira,[Sem rotulo],,,0.15,3,2,0,1,0,0,0,0,0,0,0,'255,255,255'
+2,6278747409995827,Andre Dumans Guedes,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,0,0,'255,255,255'
+3,4331600357583727,Carolina Christoph Grillo,[Sem rotulo],,,1.0,2,1,0,1,0,0,0,0,0,0,0,'255,255,255'
+4,8125255183526494,Carolina Zuccarelli Soares,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,1,0,'255,255,255'
+5,6488014689662028,Christina Vital da Cunha,[Sem rotulo],,,1.6089553,3,0,1,2,0,0,0,0,0,0,0,'255,255,255'
+6,5328470389792359,Cristiano Fonseca Monteiro,[Sem rotulo],,,0.15,1,0,0,0,1,0,0,0,0,0,0,'255,255,255'
+7,4886588496142072,Daniel Veloso Hirata,[Sem rotulo],,,1.0,3,1,0,2,0,0,0,0,0,0,0,'255,255,255'
+8,9491355582964341,Flavia Mateus Rios,[Sem rotulo],,,0.3910448,3,0,1,2,0,0,0,1,0,1,0,'255,255,255'
+9,9764394229366486,Jair de Souza Ramos,[Sem rotulo],,,0.15,3,3,0,0,0,0,0,0,0,0,0,'255,255,255'
+10,7461074173452047,Joana DArc Fernandes Ferraz,[Sem rotulo],,,0.15,0,0,0,0,0,0,0,0,0,1,0,'255,255,255'
+11,1767276587986364,Jorge de La Barre,[Sem rotulo],,,1.6089553,0,0,0,0,0,0,0,0,0,2,0,'255,255,255'
+12,1684516043842222,Juliana Vinuto Lima,[Sem rotulo],,,0.15,1,0,0,1,0,0,0,0,0,2,0,'255,255,255'
+13,5149701777708320,Lucas Correia Carvalho,[Sem rotulo],,,0.15,1,1,0,0,0,0,0,0,0,1,0,'255,255,255'
+14,0957127806882841,Marcos Otavio Bezerra,[Sem rotulo],,,0.15,2,0,0,2,0,0,0,0,0,0,0,'255,255,255'
+15,1926364336557376,Raquel Guilherme de Lima,[Sem rotulo],,,0.15,1,0,0,1,0,0,0,0,0,0,0,'255,255,255'
+16,0407753156463593,Valter Lucio de Oliveira,[Sem rotulo],,,0.15,3,0,1,2,0,0,0,0,0,0,0,'255,255,255'
+17,4017198138135829,Veronica Toste Daflon,[Sem rotulo],,,0.15,3,2,0,1,0,0,0,0,0,0,0,'255,255,255'
+18,7375738037025795,Raphael Jonathas da Costa Lima,[Sem rotulo],,,0.3910448,1,1,0,0,0,0,0,0,0,5,0,'255,255,255'
+19,4321213754007579,Luis Carlos Fridman,[Sem rotulo],,,0.15,1,1,0,0,0,0,0,0,0,0,0,'255,255,255'
+edgedef> node1 VARCHAR, node2 VARCHAR, weight DOUBLE
+3,7,2.0
+5,8,1.0
+5,11,7.0
+5,18,1.0
+8,11,1.0
+8,18,1.0
+11,18,1.0
